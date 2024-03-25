@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  color: #ffffff; /* white color */
+  margin-bottom: 10px; /* Add some space below each heading */
+}
+
+/* Style for specific heading elements */
+h1 {
+  font-size: 32px; /* Larger font size for h1 */
+}
+
+h2 {
+  font-size: 24px; /* Slightly smaller font size for h2 */
+}
+
+h3 {
+  font-size: 20px; /* Medium font size for h3 */
+}
+
+h4 {
+  font-size: 18px; /* Smaller font size for h4 */
+}
+
+h5 {
+  font-size: 16px; /* Smallest font size for h5 */
+}
+
+h6 {
+  font-size: 14px; /* Even smaller font size for h6 */
+}
+
+p {
+  color: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+

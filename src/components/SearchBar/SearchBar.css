@@ -1,0 +1,35 @@
+.search-bar {
+  margin-bottom: 1rem;
+}
+
+.search-input {
+  width: calc(80% - 100px); /* Adjusted width to accommodate button */
+  height: 6px;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 2px solid #34cadb; /* Blue color */
+  border-radius: 5px;
+}
+
+.search-button {
+  background-color: #08c5d6; /* Blue color */
+  height: 44px;
+  color: white;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.1s; /* Add transition for smooth effect */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.search-button:hover {
+  background-color: #2980b9; /* Darker blue color on hover */
+}
+
+.search-button:active {
+  background-color: #1f618d; /* Even darker blue color when pressed */
+  transform: translateY(2px); /* Move button down slightly when pressed */
+  box-shadow: none; /* Remove shadow effect when pressed */
+}
+

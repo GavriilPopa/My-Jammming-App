@@ -1,0 +1,166 @@
+.App {
+  background-image: url("./Image/7e6a66ea147e96c8ccd02b6ee519c32d.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  min-height: 100vh;
+  background-attachment: fixed;
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'banner banner'
+    'searchBar searchBar'
+    'leftCol rightCol'
+    'footer footer';
+  row-gap: 10px;
+  margin: 0;
+  padding: 0;
+
+  @media (max-width: 600px) {
+    
+    grid-template-areas:
+      'header header'
+      'banner banner'
+      'searchBar searchBar'
+      'leftCol'
+      'rightCol'
+      'footer footer';
+  }
+}
+
+.Header {
+  grid-area: header;
+  background-color: rgba(28, 29, 29, 0.3);
+  height: 80px;
+  text-align: center;
+  padding-left: 5%;
+
+  @media (max-width: 600px) {
+    height: 60px;
+  }
+}
+
+
+.SearchBar {
+  grid-area: searchBar;
+  height: auto; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px; 
+  border-radius: 10px;
+  
+}
+
+.SearchBar input {
+  width: 230px; 
+  height: 40px;
+  padding: 0 10px; 
+  margin-right: 10px;
+  border: 2px solid #2d2d2d; 
+}
+
+.SearchBar button {
+  background-color: #15b2c7; 
+  color: white;
+  padding: 10px 20px; 
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.1s; 
+}
+
+.SearchBar button:hover {
+  background-color: #1c96bc; 
+}
+
+
+
+.Left {
+  grid-area: leftCol;
+  background-color: rgba(28, 29, 29, 0.5);
+  box-shadow: 0px 0px 25px #000000;
+  padding-left: 35px;
+  margin: 30px;
+  border-radius: 10px;
+  height: auto;
+
+  @media (max-width: 600px) {
+    border-right: none;
+    border-bottom: 2px beige solid;
+  }
+}
+
+.Right {
+  grid-area: rightCol;
+  background-color: rgba(28, 29, 29, 0.5);
+  box-shadow: 0px 0px 25px #000000;
+  border-radius: 10px;
+  padding-left: 35px;
+  margin: 30px;
+  height: auto;
+
+  @media (max-width: 600px) {
+    border-left: none;
+    border-bottom: 2px rgb(151, 151, 151) solid;
+  }
+}
+
+.Track button {
+  background-color: #15b2c7; 
+  color: white;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  padding: 10px 20px; 
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.Track button:hover {
+  background-color: #1c96bc; 
+}
+
+.Playlist {
+  grid-area: playlist;
+}
+
+.Playlist input {
+  width: 200px; 
+  height: 40px; 
+  padding: 0 10px; 
+  margin-right: 10px; 
+  border: 1px solid #1e1e1e; 
+  border-radius: 5px;
+}
+
+.Playlist button {
+  background-color: #15b2c7; 
+  color: white;
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+  padding: 10px 20px; 
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.1s; 
+  margin-top: 10px;
+}
+
+.Playlist button:hover {
+  background-color: #1c96bc; 
+}
+
+
+.Footer {
+  grid-area: footer;
+  background-color: rgba(28, 29, 29, 0.4);
+  height: 70px;
+  text-align: center;
+  margin-top: auto; 
+
+  @media (max-width: 600px) {
+    margin-top: 5%;
+  }
+}
