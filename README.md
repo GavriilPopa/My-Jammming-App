@@ -15,6 +15,9 @@ Craft personalized playlists.
 Save playlists to your Spotify account.
 See the app in action with screenshots.
 
+![image](https://github.com/GavriilPopa/My-Jammming-App/assets/99069066/52e2b301-f1a0-4618-911c-e8d32ab3a494)
+
+
 # Future Work
 Expanding functionality to connect with multiple music APIs for a wider selection of music sources.
 
