@@ -1,3 +1,23 @@
+# Purpose of the project:
+This project showcases the implementation of React components, state management, and interaction with the Spotify API to create a dynamic application experience.
+
+# Technologies Utilized
+HTML
+CSS
+JavaScript
+React
+HTTP Requests and Responses
+Authentication
+
+# Project Features
+Search Spotify for your favorite tracks.
+Craft personalized playlists.
+Save playlists to your Spotify account.
+See the app in action with screenshots.
+
+# Future Work
+Expanding functionality to connect with multiple music APIs for a wider selection of music sources.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
